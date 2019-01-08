@@ -66,4 +66,14 @@ p span{color:green;} /*权值为1+1=2*/
 .warning{color:white;} /*权值为10*/
 p span.warning{color:purple;} /*权值为1+1+10=12*/
 #footer .note p{color:yellow;} /*权值为100+10+1=111*/
+p{line-height:1.5em;}文字的间距
+body{font-size:12px;color:#666}设置文字大小颜色
+font-weight:bold;  设置加粗
+font-style:italic；斜体
+text-decoration:underline; 下划线
+text-decoration:line-through;  删除线 <span class="oldPrice">300</span>元 现价：230 元</p> 
+p{text-indent:2em;}  首行缩进
+line-height:1.5em;  段落排版--行间距
+letter-spacing:50px;   字母间距
+div{text-align:center;}  块状居中
 
