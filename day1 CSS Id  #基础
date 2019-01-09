@@ -76,4 +76,11 @@ p{text-indent:2em;}  首行缩进
 line-height:1.5em;  段落排版--行间距
 letter-spacing:50px;   字母间距
 div{text-align:center;}  块状居中
+div,p{background:pink;}块状元素
+border-top:1px solid red;
+border-right:1px solid red; 
+border-left:1px solid red;
+border-bottom:1px  solid red;
+
+
 
