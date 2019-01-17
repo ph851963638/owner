@@ -93,5 +93,36 @@ float:left  浮动显示
 position:abosolute；
 position：revelate;
 position:fixed;
+&lt;  小于 字符  <
+&gt   大于 字符 >
+< ol  type=1 A 27    reversed =reversed  start="2"   >
+<ul type="circle / disc/
+border-radius:  圆角
+img :  属性 alt 图片占位符  图片地址不正确时 出现文字引导  title= 图片提示符
+  <a href="http://www.baidu.com" target="_blank">www.baidu.com </a>  target = 打开新的标签页
+input type=checkbox   复选框  type checked 默认选中 
+
+shell  内核
+
+IE                trident
+Firefox           Gecko
+Goole chrome       webkit/blink
+opera              presto  
+
+<!-- id>class|属性>标签选择器>通配符 -->
+CSS权重
+！important       infinity
+行间样式            1000
+id                   100
+class|属性|伪类       10
+标签| 伪元素          1  
+通配符                0
+
+section  div  ul li a em  权重选择
+
+
+
+
+
 
 
