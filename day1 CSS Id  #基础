@@ -119,9 +119,16 @@ class|属性|伪类       10
 通配符                0
 
 section  div  ul li a em  权重选择
+text-indent: 2em;       /*  缩进*/
+1.行级元素 内联元素  span  div   p  li ol form 
+feature： 内容決定元素所占位置
+          不可以通過css改變寬高
+2.塊級元素  block 
+ feature：独占一行，可以通过css改变宽高
 
-
-
+3.行级块元素  
+    feature   内容决定大小
+              可以改宽高
 
 
 
