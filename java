@@ -17,4 +17,24 @@ byte（8）,short（16）,char（16）—> int（32） —> long（64）—> flo
 访问修饰符可以修饰实例变量；
 静态变量除了被声明为常量外很少使用。常量是指声明为public/private，final和static类型的变量。常量初始化后不可改变。
 
+选择语句  
+if  普遍性高,万能
+switch  使用局限性强，主要适用给变量做等值的分支判断
+循环语句：
+
+   1.while
+   2.do-while    同  while    先执行代码  再 判断条件
+   3.for   简洁  直观
+当对基本数据类型做等值判断时，使用==即可
+但当对字符串String类型做等值判断时，需要用equals();
+
+基本数据类型 4类 ：  整数 byte short int long   小数  布尔 boolean  字符 char 
+引用数据类型：  
+char  必须用单引号  ‘’；
+
+
+
+
+
+
 
