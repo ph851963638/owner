@@ -3,6 +3,19 @@
 MVC：
 M:model 模型 （实体类）
 表示项目间的模型数据
+Spring Frakework
+SSH（ Struts2 +Spring +Hibernate）
+新SSH（Spring+hibernate）
+SSM (Spring MVC +Spring+Mybatis)
+Spring Framework(loc MVC)
+Spring Boot ( 零配置文件思路，约定大于配置)
+Spring Cloud(当前最顶端前沿的，微服务)
+Spring   Security( 安全  淘宝之类的)
+ 
+      总而言之， 自己new对象不好，希望有个容器能够获得对象，这个就是loc
+      loc  控制反转， 把对象的控制权交给（容器）
+
+
 
 V:view   视图（html文件）
 C: Controller 控制器（接收客户端请求的一种Java类）
