@@ -185,10 +185,28 @@ OOP 面向对象编程   计算机编程架构
               综合了解和实践操作集合框架所涉及的数据结构；
               
                
+          public Person(){
           
+          system.out.println("构造器被调用了")
+          
+          }
        
-       
-       
+       一个类的构造器没有任何参数这就是默认构造器，如果不写的话也是默认存在的，方法体什么都没有，我们也可以显示的定义出来。
+       如果一个类的有参构造器 中定义的是无参构造器 ，其数据就被覆盖了
+       public Person(String name, int age) {
+	  this.name=name;
+	  this.age=age;
+  }	
+  
+   public Person(String name,int age,String  gender) {
+    //给属性赋值
+//	   this.name=name; 
+//	   this.age=age;
+	  this(name,age);
+	  System.out.println("kkkkk");
+	  this.gender=gender;
+   }
+   通过this(变量，变量... ) 这种方式要调用本类的构造器，必须放在调用的第一行
        
        
        
