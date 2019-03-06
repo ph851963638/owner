@@ -1,0 +1,33 @@
+Iterator()接口中的方法：
+boolean hasNext();    判断集合中的元素是否遍历完毕，如果没有，返回true
+next();返回下一个元素。
+remove();从集合中删除上一个由next()方法返回的元素
+
+Set 集合    HashSet 无序 哈希集合  treeset   有序  树集合
+实例 Hashset  无序集合
+
+Set hashset1= new Hashset();
+String s1= new String ("Hello");
+String s2=new  String ("Hello");
+hashset1.add(s1);
+hashset1.add(s2);
+System.out.println("Hashset1.size="+Hashset1.size());  //输出1   在哈希集合中使用hash.size方法输出不相同的大小；
+ Iterator it=hashset1.iterator();
+ while(it.hashNext()){
+     Object o=it.next();
+     system.out.println(o+" ");   //通过it方法返回下一个元素，从而输出o的方法， 因为hashset输出不同数据，仅输出一个，所以输出Hello
+}
+
+    Set treeset =new TreeSet();      //Set 设置树型集合，然后  创建新的树的集合；
+    treeset.add(new Integer(设置数值));
+    treeset.add(new Integer(设置数值))；
+    treeset.add(new Integer(设置数值));
+    
+    Iterator its=treeset.iterator();
+    while(its.hashNext()){
+       Object o=its.next();
+       system.out.println(o+"");           //有序输出集合中的数字      
+    }
+ 
+
+
