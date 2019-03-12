@@ -1,0 +1,11 @@
+创建数据表
+CREATE TABLE [IF NOT EXISTS]table_name(
+column_name data_type,
+)
+
+
+查询编辑器          DESC  降序   ASC 升序   LIMIT 1,1 限制  
+SELECT * FROM 表名 ORDER BY 属性 DESC
+SELECT * FROM 表名 WHERE proID=1 (属性)
+SELECT proName,proDetail FROM product WHERE proID=1;
+SELECT proName AS 商品名,proDetail AS 商品详情, propic FROM product WHERE proID=1
