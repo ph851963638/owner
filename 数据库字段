@@ -1,0 +1,24 @@
+-----创建表空间------
+create tablespace demoschool
+datafile 'D:/sql/demoschool.dbf'
+size 50m
+autoextend on
+
+
+授权
+grant create session to c##teacher 
+
+登录账户 
+conn 用户名/密码
+
+创建表属性
+create table student（
+sno name(3) primary key,    设置属性和主键
+sname varchar2(20) not null, 设置属性和 字段属性
+sdir date,
+sgender char(3)
+）
+
+改变表空间
+alter user c##teacher
+quota 1m on demoschool
