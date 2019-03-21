@@ -1,0 +1,18 @@
+
+ 1、JSP   异步请求AJAX
+1）异步请求概念：注册页面  ， 用户名   密码 
+局部页面更新   
+Input      
+按钮、
+时间
+XMLHttpRequest 对象
+http状态码    200成功   404   500
+JavaScript -- 操作XHR 对象
+1)Open(url,method,async)
+2)Send(String)   ,String只有在post方式才会添加，表示请求参数
+接收响应结果：Status==200 && readyState==4
+Jquery  -- 操作XHR对象
+1）引入Jquery.3.3.1.js 文件，JSP页面在<head>部分引入js文件
+<script src="bootstrap-3.3.4-dist/jquery-1.11.3.js"></script>
+2）body添加<script>操作AJAX
+http://jquery.cuishifeng.cn/
