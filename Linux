@@ -1,0 +1,6 @@
+-tar cvf test111.tar test111/   打包
+-tar-xvf test111.tar           解包
+tar- zxvf  解压缩
+tar-jcvf 压缩命令
+tar - zcvf   exclude  打包时除去此文件
+
