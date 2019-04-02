@@ -1,0 +1,12 @@
+jvm特殊含义；
+子类继承父类，继承父类非私有的方法和属性
+animal    public void eat()   {具体行为}
+
+dog
+Dog
+@override
+类作为注解  @+类名
+public void eat(){自己行为}  扩展 重写
+4大核容器  beans\context\core\express language
+3）Spring中的注解 （创建对象）
+@controller   修饰控制器
