@@ -10,3 +10,13 @@ public void eat(){自己行为}  扩展 重写
 4大核容器  beans\context\core\express language
 3）Spring中的注解 （创建对象）
 @controller   修饰控制器
+
+
+3)设置属性的值
+A： int String double 常量 ，   8种基本类型+API提供的类型  ，使用@Value ，省略setter 方法
+
+
+B：自定义类型，两个类之间的关系 @autowired 扫码添加注解的属性对应的Javabean是否有4个注解之一
+1:1  
+
+
