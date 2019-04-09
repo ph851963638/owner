@@ -28,6 +28,11 @@ C为控制，也就是事件，用于流程的控制。
 采用DAO模式，建立实体类和数据库表映射，（ORM映射）。也就是哪个类对应哪个表，哪个属性对应哪个列。持久层的目的就是，完成对象数据和关系数据的转换。
 表现层(jsp)、持久层(类似dao)、业务层（逻辑层、service层）、模型（javabean）、控制层（action）
 
+List <Study> lss=new ArrayList<Study>();
+Set 只能存储字符串   Set<String>
+             整数   Set<Integer>  封装类   八种基本类型引用
+
+
 
 
 
