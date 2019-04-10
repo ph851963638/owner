@@ -35,6 +35,16 @@ Set 只能存储字符串   Set<String>
 SpringMVC框架
 属于spring 框架的一部分，Servlet -DispatcherServlet:前端控制器
 
+
+1.使用步骤；
+1.导入jar包 5+2spring-web&web-mvc+1 spring-aop
+2配置前端控制器  web-inf/xml
+3.添加springmvc配置文件，xxx-servlet.xml，默认web-inf下面；
+4.spring 配置文件中添加包扫描，只能扫描Controller
+5.controller 创建xxxxController,给类添加注解
+@Controller  springmvc类中的一个方法对应一个请求；
+Servlet中doget/dopost ，一个servlet只能处理一个请求，
+
  
 
 
