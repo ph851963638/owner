@@ -21,7 +21,7 @@ java三层架构
 业务逻辑层（Service层）
 表现层（jsp）
 采用mvc模式
-M称为模型  实体类  用于数据的枫树和数据的传输
+M称为模型  实体类  用于数据的封装和数据的传输
 V为视图，也就是GUI组件，用于数据的展示，
 C为控制，也就是事件，用于流程的控制。
 持久层  （DAO）
@@ -32,6 +32,8 @@ List <Study> lss=new ArrayList<Study>();
 Set 只能存储字符串   Set<String>
              整数   Set<Integer>  封装类   八种基本类型引用
 配置文件给List<Integer>属性赋值，创建集合对象使用  util
+SpringMVC框架
+属于spring 框架的一部分，Servlet -DispatcherServlet:前端控制器
 
  
 
