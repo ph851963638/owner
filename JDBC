@@ -31,6 +31,9 @@ C为控制，也就是事件，用于流程的控制。
 List <Study> lss=new ArrayList<Study>();
 Set 只能存储字符串   Set<String>
              整数   Set<Integer>  封装类   八种基本类型引用
+配置文件给List<Integer>属性赋值，创建集合对象使用  util
+
+ 
 
 
 
