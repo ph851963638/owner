@@ -134,6 +134,29 @@ SpringMVC框架
 @Controller  springmvc类中的一个方法对应一个请求；
 Servlet中doget/dopost ，一个servlet只能处理一个请求，
 
+
+SpringMVC  +Spring JDBC 完成登录验证
+ 
+连数据库  mysql -connector.jar
+连接池   pools  
+Template  Spring -tx, spring -jdbc
+添加spring配置文件  web-inf   applicationContext  扫描dao和service包
+web.xml 加载配置文件
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 
 
