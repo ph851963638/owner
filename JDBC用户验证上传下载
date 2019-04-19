@@ -13,5 +13,23 @@
 DAO和Impl当中的额外的好处，将DAO导入Ioc容器，转换为Spring DataAccessException。
 @Repository：这个注解是具有类似用途和功能的 @Component 注解的特化。它为 DAO 提供了额外的好处。它将 DAO 导入 IoC 容器，并使未经检查的异常有资格转换为 Spring DataAccessException。
 
+二、SpringMVC处理响应视图
+控制器中的方法，返回值，对应一个jsp页面，String 
+public String test(){
+retrun "test";
+}
+ModelAndView  构造数据以及视图
+public ModelAndView home(){
+// home .jsp;
+//数据：传递所有的用户信息
+    ModelAndView mav=New ModelAndView();
+     mav.setViemName("");
+     
+     mav.addObjec("msg ,"登录信息有误");
+      mav.SetViewName("redirect:/index.jsp");
+
+return "";   
+A
+}
 
 
