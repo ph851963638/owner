@@ -73,8 +73,12 @@ d:function d{}
 }
 
 
+CSS中 display的属性有几种？
 
-
+display :block;
+display:inline;
+display: inline-block;
+null;
 
 
 
